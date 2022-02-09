@@ -60,7 +60,6 @@ header{
 .about_me{
     height: 500px;
     display: flex;
-    background-color: #397367;
 }
 
 .about_me h1{
@@ -75,7 +74,6 @@ header{
     position: relative;
     top: 24%;
     left: -1%;
-    background-color: orangered;
 }
 
 .about_img img{
@@ -85,7 +83,6 @@ header{
 .about_txt{
     height: 300px;
     width: 40%;
-    background-color: blue;
     position: relative;
     top: 24%;
     left: 12%;
@@ -97,7 +94,6 @@ header{
 
 .skills{
     height: 400px;
-    border: 2px solid blue;
 }
 
 .skills h1{
@@ -108,7 +104,7 @@ header{
 
 .skills-bar{
     width: 600px;
-    background-color: #101010;;
+    background-color: #101010;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
     padding: 25px 30px;
@@ -220,7 +216,6 @@ span{
 
 .contact_me{
     height: 700px;
-    border: 2px solid green;
     display: flex;
 }
 
@@ -237,7 +232,6 @@ span{
     position: relative;
     top: 180px;
     left: -100px;
-    background-color: aqua;
 }
 
 .form{
@@ -245,7 +239,6 @@ span{
     width: 40%;
     margin-top: 14%;
     margin-left: 10%;
-    /* background-color: coral; */
 }
 
 input[type=text], select, textarea {
@@ -271,7 +264,6 @@ input[type=text], select, textarea {
 
 .discuss{
     height: 200px;
-    border: 2px solid orchid;
 }
 
 .discuss h1{
@@ -296,7 +288,6 @@ input[type=text], select, textarea {
 }
 footer{
     height: 100px;
-    border: 2px solid ;
 }
 
 footer h1{
