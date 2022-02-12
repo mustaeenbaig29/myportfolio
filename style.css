@@ -299,6 +299,12 @@ footer h1{
 /* navbar responsive */
 
 @media screen and (max-width: 1051px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .nav_items{
         margin-left: -120px;
         width: 40%;
@@ -306,6 +312,12 @@ footer h1{
 }
 
 @media screen and (max-width: 787px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .nav_items{
         margin-left: -260px;
         width: 50%;
@@ -313,6 +325,12 @@ footer h1{
 }
 
 @media screen and (max-width: 624px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .nav_items{
         display: none;
     }
@@ -326,6 +344,12 @@ footer h1{
 }
 
 @media screen and (max-width: 548px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .nav_items{
         display: none;
     }
@@ -339,6 +363,12 @@ footer h1{
 }
 
 @media screen and (max-width: 414px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     body{
         overflow-x: hidden;
     }
@@ -356,6 +386,12 @@ footer h1{
 
 
 @media screen and (max-width: 375px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .nav_items{
         display: none;
     }
@@ -373,6 +409,12 @@ footer h1{
 
 
 @media screen and (max-width: 750px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .hero_txt{
         position: relative;
         left: 18%;
@@ -380,6 +422,12 @@ footer h1{
 }
 
 @media screen and (max-width: 586px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .hero_txt{
         position: relative;
         left: 10%;
@@ -388,6 +436,12 @@ footer h1{
 
 
 @media screen and (max-width: 534px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .hero_txt{
         position: relative;
         left: 5%;
@@ -395,6 +449,12 @@ footer h1{
 }
 
 @media screen and (max-width: 500px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .hero_txt{
         position: relative;
         left: 3%;
@@ -406,6 +466,12 @@ footer h1{
 /* about me responsive starts */
 
 @media screen and (max-width: 1194px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
    .about_txt{
        width: 44%;
    }
@@ -416,6 +482,12 @@ footer h1{
 }
 
 @media screen and (max-width: 1035px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         width: 52%;
         margin-left: -12%;
@@ -431,6 +503,12 @@ footer h1{
  }
 
  @media screen and (max-width: 920px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         width: 59%;
         margin-left: -17%;
@@ -446,6 +524,12 @@ footer h1{
  }
 
  @media screen and (max-width: 843px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         width: 59%;
         margin-left: -19%;
@@ -461,6 +545,12 @@ footer h1{
  }
 
  @media screen and (max-width: 815px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         width: 64%;
         margin-left: -23%;
@@ -476,6 +566,12 @@ footer h1{
  }
 
  @media screen and (max-width: 721px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         font-size: 15px;
         /* width: 64%; */
@@ -501,6 +597,12 @@ footer h1{
  }
 
  @media screen and (max-width: 643px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         font-size: 15px;
         width: 74%;
@@ -526,6 +628,12 @@ footer h1{
  }
 
  @media screen and (max-width: 583px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         font-size: 15px;
         width: 74%;
@@ -551,6 +659,12 @@ footer h1{
  }
 
  @media screen and (max-width: 535px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         font-size: 15px;
         width: 74%;
@@ -576,6 +690,12 @@ footer h1{
  }
 
  @media screen and (max-width: 375px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .about_txt{
         font-size: 15px;
         width: 74%;
@@ -602,6 +722,12 @@ footer h1{
 
 
  @media screen and (max-width: 414px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
       body{
           overflow-x: hidden;
       }
@@ -630,6 +756,12 @@ footer h1{
  }
 
  @media screen and (max-width: 360px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     body{
         overflow-x: hidden;
     }
@@ -662,6 +794,12 @@ footer h1{
 /* Skills responsive starts */
 
 @media screen and (max-width: 1083px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .skills-bar{
         position: relative;
         right: 50px;
@@ -669,6 +807,12 @@ footer h1{
 }
 
 @media screen and (max-width: 830px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .skills-bar{
         position: relative;
         top: 30px;
@@ -677,6 +821,12 @@ footer h1{
 }
 
 @media screen and (max-width: 710px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .skills-bar{
         position: relative;
         top: 30px;
@@ -685,6 +835,12 @@ footer h1{
 }
 
 @media screen and (max-width: 642px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .skills-bar{
         position: relative;
         top: 30px;
@@ -693,6 +849,12 @@ footer h1{
 }
 
 @media screen and (max-width: 602px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .skills-bar{
         position: relative;
         top: 30px;
@@ -702,6 +864,12 @@ footer h1{
 }
 
 @media screen and (max-width: 375px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .skills-bar{
         position: relative;
         top: 30px;
@@ -715,6 +883,12 @@ footer h1{
 /* contact me responsive starts */
 
 @media screen and (max-width: 1275px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .form{
         position: relative;
         left: 30px;
@@ -722,6 +896,12 @@ footer h1{
 }
 
 @media screen and (max-width: 1201px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .form{
         position: relative;
         left: 50px;
@@ -734,6 +914,12 @@ footer h1{
 }
 
 @media screen and (max-width: 1075px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 490px;
@@ -751,6 +937,12 @@ footer h1{
 }
 
 @media screen and (max-width: 906px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 410px;
@@ -769,6 +961,12 @@ footer h1{
 }
 
 @media screen and (max-width: 819px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 370px;
@@ -789,6 +987,12 @@ footer h1{
 }
 
 @media screen and (max-width: 686px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 260px;
@@ -809,6 +1013,12 @@ footer h1{
 }
 
 @media screen and (max-width: 613px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 260px;
@@ -837,6 +1047,12 @@ footer h1{
 }
 
 @media screen and (max-width: 576px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 170px;
@@ -865,6 +1081,12 @@ footer h1{
 }
 
 @media screen and (max-width: 546px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 170px;
@@ -893,6 +1115,12 @@ footer h1{
 }
 
 @media screen and (max-width: 375px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 170px;
@@ -921,6 +1149,12 @@ footer h1{
 }
 
 @media screen and (max-width: 414px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .contact_me h1{
         position: relative;
         left: 170px;
@@ -951,6 +1185,12 @@ footer h1{
 /* discuss section starts */
 
 @media screen and (max-width: 1126px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .social{
         position: relative;
         left: 430px;
@@ -958,6 +1198,12 @@ footer h1{
 }
 
 @media screen and (max-width: 935px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .social{
         position: relative;
         left: 360px;
@@ -965,6 +1211,12 @@ footer h1{
 }
 
 @media screen and (max-width: 748px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .social{
         position: relative;
         left: 240px;
@@ -973,6 +1225,12 @@ footer h1{
 }
 
 @media screen and (max-width: 612px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .social{
         position: relative;
         left: 180px;
@@ -981,6 +1239,12 @@ footer h1{
 }
 
 @media screen and (max-width: 500px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     .social{
         position: relative;
         left: 113px;
