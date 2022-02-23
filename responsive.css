@@ -428,6 +428,28 @@
     }
 }
 
+@media screen and (max-width:949px) {
+    .skills_txt h4{
+        position: relative;
+        top:18px;
+    }
+
+    .pro{
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width:689px) {
+    .skills_txt h4{
+        position: relative;
+        top:18px;
+    }
+
+    .pro{
+        margin-top: 4%;
+    }
+}
+
 @media screen and (max-width:612px) {
     .skills_txt h4{
         position: relative;
@@ -435,6 +457,22 @@
     }
 
     .pro{
+        margin-left: 2%;
+    }
+
+    .progress{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:393px) {
+    .skills_txt h4{
+        position: relative;
+        top:18px;
+    }
+
+    .pro{
+        margin-top: 8%;
         margin-left: 2%;
     }
 
@@ -455,6 +493,28 @@
 
     .progress{
         width: 95%;
+    }
+}
+
+@media screen and (max-width:517px) {
+    .skills_txt h4{
+        position: relative;
+        top:18px;
+    }
+
+    .pro{
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .skills_txt h4{
+        position: relative;
+        top:18px;
+    }
+
+    .pro{
+        margin-top: 10%;
     }
 }
 /* skills ends */
@@ -665,6 +725,25 @@
     
     #contactForm{
         width: 220%;
+    }
+}
+
+@media screen and (max-width:393px) {
+    .contact_me{
+        height: 1200px;
+    }
+
+   .map iframe{
+       width: 220%;
+   }
+    .contact_form{
+        position: relative;
+        top: 580px;
+        right: 190px;
+    }
+    
+    #contactForm{
+        width: 250%;
     }
 }
 
