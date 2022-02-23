@@ -1,1253 +1,230 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
+
 body{
     margin: auto;
+    background-color: black;
     overflow-x: hidden;
 }
 
-header{
-    height: 100px;
-    background-color: #397367;
-}
+/* navbar starts */
 
-.menu{
-    display: none;
-}
 
-.nav_items{
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-    position: relative;
-    top: 5px;
-    left: 477px;
-    font-size: 18px;
-    list-style: none;
-    color: #35393C;
-}
-
-.logo i{
-    font-size: 33px;
-    position: relative;
-    top: 26px;
-    left: 73px;
-
-}
-
-.hero_img{
-    height: 400px;
-    /* background-color: #42858C; */
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/web-development-647_062317054646.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 400px;
-}
-
-.hero_txt{
-    position: relative;
-    top: 21%;
-    left: 36%;
-    font-size: 36px;
+.logo{
+    font-size: 30px;
+    position: absolute;
+    top: 32px;
+    left: 60px;
     color: white;
 }
 
+span{
+    color: #f4004c;
+}
 
+.navbar_items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    position: relative;
+    top: 40px;
+    margin-left: 25%;
+    list-style: none;
+}
+
+.navbar_links a{
+    text-decoration: none;
+    color: white;
+}
+
+.mobile_nav{
+    display: none;
+}
+
+/* navbar ends */
+
+/* about me starts */
 
 .about_me{
-    height: 500px;
-    display: flex;
+    height: 450px;
+    width: 74%;
+    margin-top: 10%;
+    margin-left: 11%;
 }
 
-.about_me h1{
-    position: relative;
-    top: 5%;
-    left: 46%;
+.about_me img{
+    width: 35%;
+    margin-top: 5%;
+    border-radius: 10%;
+    border: 2px solid white;
 }
 
-.about_img{
-    height: 300px;
-    width: 30%;
-    position: relative;
-    top: 24%;
-    left: -1%;
+.txt{
+    width: 60%;
+    /* float: right; */
+    color: white;
+    margin-top: -34%;
+    margin-left: 40%;
 }
 
-.about_img img{
-    width: 91%;
+h5{
+    line-height: 200%;
 }
 
-.about_txt{
-    height: 300px;
-    width: 40%;
-    position: relative;
-    top: 24%;
-    left: 12%;
-}
+/* about me ends */
 
-.about_txt h3{
-    line-height: 2;
-}
-
+/* skills starts */
 .skills{
-    height: 400px;
+    height: 600px;
+    border: 2px solid salmon;
+    background-color: #191919;
+}
+
+.skills_txt h4{
+    position: relative;
+    top: 30px;
+    color: white;
 }
 
 .skills h1{
     text-align: center;
-    position: relative;
-    top: 40px;
-}
-
-.skills-bar{
-    width: 600px;
-    background-color: #101010;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-    padding: 25px 30px;
-    /* position: absolute;
-    top: 40px;
-    left: 320px; */
-    margin-top: 5%;
-    margin-left: 30%;
-}
-
-span{
     color: white;
 }
 
-.skills-bar .bar{
-    margin: 20px 0;
+.pro{
+    margin-left: 10%;
 }
 
-.skills-bar .bar .info span{
-    margin-bottom: 5px;
-}
-
-.skills-bar .bar:first-child{
-    margin-top: 0px;
-}
-
-.skills-bar .bar .info span{
-    font-size: 17px;
-    font-weight: 500;
-}
-
-.skills-bar .bar .progress-line{
-    position: relative;
-    height: 10px;
-    width: 100%;
-    background: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5),
-                       0px 1px rgba(225,225,225,0.8);
-}
-
-.bar .progress-line span{
-    height: 100%;
+.progress{
     width: 80%;
-    background: #6665ee;
-    position: absolute;
-    border-radius: 10px;
+    margin-top: 3%;
 }
 
-.bar .progress-line span::before{
-    position: absolute;
-    content: "";
-    right: 0;
-    top: -10px;
-    height: 0;
-    width: 0;
-    border: 7px solid transparent;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-color: #000;
+/* skills ends */
+
+/* projects starts */
+.project{
+    height: 500px;
+    /* border: 2px solid orangered; */
 }
 
-.bar .progress-line span::after{
-    position: absolute;
-    right: 0;
-    top: -28px;
-    color: #fff;
-    font-size: 12px;
-    background: #000;
-    padding: 1px 8px;
-    border-bottom: 3px;
+.project h1{
+    text-align: center;
+    color: white;
 }
 
-.progress-line.html span{
-    width: 70%;
+.cards{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.progress-line.css span{
+.card{
+    height: 350px;
     width: 40%;
+    margin-top: 5%;
+    background-color: #191919;
 }
 
-.progress-line.boot span{
+.card_txt{
+    color: white;
+    text-align: center;
+}
+
+.card_anchor{
+    text-align: center;
+}
+
+.card_anchor a{
+    text-decoration: none;
+    color: #f4004c;
+}
+/* projects ends */
+
+/* idea starts */
+.ideas{
+    height: 200px;
+    /* border: 2px solid saddlebrown; */
+    background-color: #191919;
+}
+
+.ideas h1{
+    text-align: center;
+    color: white;
+}
+
+.social{
+    margin-top: 3%;
+    margin-left: 35%;
+    display: flex;
+    justify-content: space-evenly;
     width: 30%;
 }
 
-.progress-line.js span{
-    width: 40%;
-}
-
-.progress-line.html span::after{
-    content: "70%";
-}
-
-.progress-line.css span::after{
-    content: "40%";
-}
-
-.progress-line.boot span::after{
-    content: "30%";
-}
-
-.progress-line.js span::after{
-    content: "40%";
-}
-
-.container h2{
+.social i{
     color: white;
+    font-size: 40px;
 }
 
+/* idea ends */
+
+/* contact me starts */
 .contact_me{
     height: 700px;
-    display: flex;
+    border: 2px solid blueviolet;
 }
 
 .contact_me h1{
     text-align: center;
-    position: relative;
-    top: 40px;
-    left: 600px;
+    color: white;
+}
+
+.contact_me_contents{
+    margin-top: 8%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .map{
-    height: 300px;
-    width: 30%;
-    position: relative;
-    top: 180px;
-    left: -100px;
-}
-
-.form{
-    height: 300px;
+    height: 500px;
     width: 40%;
-    margin-top: 14%;
-    margin-left: 10%;
+    /* border: 2px solid salmon; */
+    margin-left: -5%;
+    /* background-color: #f4004c; */
 }
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
+.contact_form{
+    height: 500px;
+    width: 40%;
+    /* border: 2px solid orchid; */
+    /* background-color: aquamarine; */
+}
+
+.form-label{
     color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-.discuss{
-    height: 200px;
 }
 
-.discuss h1{
-    text-align: center;
-    position: relative;
-    top: 50px;
-}
-
-.social{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    font-size: 30px;
-    position: relative;
-    top: 90px;
-    left: 500px;
-    width: 20%;
-}
-
-.social li a{
-    color: #000;
-}
 footer{
     height: 100px;
+    border: 2px solid saddlebrown;
+}
+
+/* contact me ends */
+
+/* footer starts */
+
+footer{
+    background-color: #191919;
 }
 
 footer h1{
     text-align: center;
-    position: relative;
-    top: 50px;
+    color: white;
+    margin-top: 2%;
 }
 
-/* navbar responsive */
-
-@media screen and (max-width: 1051px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .nav_items{
-        margin-left: -120px;
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 787px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .nav_items{
-        margin-left: -260px;
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 624px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .nav_items{
-        display: none;
-    }
-
-    .menu{
-        display: block;
-        position: relative;
-        left: 500px;
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 548px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .nav_items{
-        display: none;
-    }
-
-    .menu{
-        display: block;
-        position: relative;
-        left: 430px;
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    body{
-        overflow-x: hidden;
-    }
-    .nav_items{
-        display: none;
-    }
-
-    .menu{
-        display: block;
-        position: relative;
-        left: 324px;
-        font-size: 30px;
-    }
-}
-
-
-@media screen and (max-width: 375px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .nav_items{
-        display: none;
-    }
-
-    .menu{
-        display: block;
-        position: relative;
-        left: 289px;
-        font-size: 30px;
-    }
-}
-/* navbar responsive ends */
-
-/* hero image resonsive starts */
-
-
-@media screen and (max-width: 750px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .hero_txt{
-        position: relative;
-        left: 18%;
-    }
-}
-
-@media screen and (max-width: 586px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .hero_txt{
-        position: relative;
-        left: 10%;
-    }
-}
-
-
-@media screen and (max-width: 534px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .hero_txt{
-        position: relative;
-        left: 5%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .hero_txt{
-        position: relative;
-        left: 3%;
-    }
-}
-
-/* hero image resonsive ends */
-
-/* about me responsive starts */
-
-@media screen and (max-width: 1194px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-   .about_txt{
-       width: 44%;
-   }
-
-   .about_img img{
-       width: 110%;
-   }
-}
-
-@media screen and (max-width: 1035px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        width: 52%;
-        margin-left: -12%;
-    }
-
-
- 
-    .about_img img{
-        width: 110%;
-        position: relative;
-        right: 33%;
-    }
- }
-
- @media screen and (max-width: 920px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        width: 59%;
-        margin-left: -17%;
-    }
-
-
- 
-    .about_img img{
-        width: 110%;
-        position: relative;
-        right: 33%;
-    }
- }
-
- @media screen and (max-width: 843px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        width: 59%;
-        margin-left: -19%;
-    }
-
-
- 
-    .about_img img{
-        width: 110%;
-        position: relative;
-        right: 33%;
-    }
- }
-
- @media screen and (max-width: 815px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        width: 64%;
-        margin-left: -23%;
-    }
-
-
- 
-    .about_img img{
-        width: 118%;
-        position: relative;
-        right: 48%;
-    }
- }
-
- @media screen and (max-width: 721px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        font-size: 15px;
-        /* width: 64%; */
-        margin-top: 35%;
-        margin-left: -45%;
-    }
-
-    .about_me h1{
-        position: relative;
-        top: 15px;
-        left: 290px;
-    }
-    
-    .about_me{
-        height: 800px;
-    }
-    .about_img img{
-        width: 200%;
-        position: relative;
-        bottom: 38%;
-        right: 1%;
-    }
- }
-
- @media screen and (max-width: 643px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        font-size: 15px;
-        width: 74%;
-        margin-top: 35%;
-        margin-left: -48%;
-    }
-
-    .about_me h1{
-        position: relative;
-        top: 15px;
-        left: 290px;
-    }
-    
-    .about_me{
-        height: 800px;
-    }
-    .about_img img{
-        width: 200%;
-        position: relative;
-        bottom: 38%;
-        right: 1%;
-    }
- }
-
- @media screen and (max-width: 583px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        font-size: 15px;
-        width: 74%;
-        margin-top: 35%;
-        margin-left: -48%;
-    }
-
-    .about_me h1{
-        position: relative;
-        top: 15px;
-        left: 250px;
-    }
-    
-    .about_me{
-        height: 800px;
-    }
-    .about_img img{
-        width: 200%;
-        position: relative;
-        bottom: 38%;
-        right: 1%;
-    }
- }
-
- @media screen and (max-width: 535px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        font-size: 15px;
-        width: 74%;
-        margin-top: 35%;
-        margin-left: -56%;
-    }
-
-    .about_me h1{
-        position: relative;
-        top: 15px;
-        left: 200px;
-    }
-    
-    .about_me{
-        height: 800px;
-    }
-    .about_img img{
-        width: 200%;
-        position: relative;
-        bottom: 38%;
-        right: 15%;
-    }
- }
-
- @media screen and (max-width: 375px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .about_txt{
-        font-size: 15px;
-        width: 74%;
-        margin-top: 35%;
-        margin-left: -56%;
-    }
-
-    .about_me h1{
-        position: relative;
-        top: 15px;
-        left: 137px;
-    }
-    
-    .about_me{
-        height: 800px;
-    }
-    .about_img img{
-        width: 200%;
-        position: relative;
-        bottom: 38%;
-        right: 50%;
-    }
- }
-
-
- @media screen and (max-width: 414px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-      body{
-          overflow-x: hidden;
-      }
-    .about_txt{
-        font-size: 15px;
-        width: 94%;
-        margin-top: 50%;
-        margin-left: -72%;
-    }
-
-    .about_me h1{
-        position: relative;
-        top: 15px;
-        left: 137px;
-    }
-    
-    .about_me{
-        height: 800px;
-    }
-    .about_img img{
-        width: 300%;
-        position: relative;
-        bottom: 38%;
-        right: 90%;
-    }
- }
-
- @media screen and (max-width: 360px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    body{
-        overflow-x: hidden;
-    }
-  .about_txt{
-      font-size: 15px;
-      width: 94%;
-      margin-top: 50%;
-      margin-left: -77%;
-  }
-
-  .about_me h1{
-      position: relative;
-      top: 15px;
-      left: 137px;
-  }
-  
-  .about_me{
-      height: 800px;
-  }
-  .about_img img{
-      width: 300%;
-      position: relative;
-      bottom: 38%;
-      right: 110%;
-  }
-}
-
-/* about me responsive ends */
-
-/* Skills responsive starts */
-
-@media screen and (max-width: 1083px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .skills-bar{
-        position: relative;
-        right: 50px;
-    }
-}
-
-@media screen and (max-width: 830px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .skills-bar{
-        position: relative;
-        top: 30px;
-        right: 120px;
-    }
-}
-
-@media screen and (max-width: 710px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .skills-bar{
-        position: relative;
-        top: 30px;
-        right: 160px;
-    }
-}
-
-@media screen and (max-width: 642px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .skills-bar{
-        position: relative;
-        top: 30px;
-        right: 180px;
-    }
-}
-
-@media screen and (max-width: 602px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .skills-bar{
-        position: relative;
-        top: 30px;
-        right: 140px;
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .skills-bar{
-        position: relative;
-        top: 30px;
-        right: 100px;
-        width: 90%;
-    }
-}
-
-/* skills responsive ends */
-
-/* contact me responsive starts */
-
-@media screen and (max-width: 1275px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .form{
-        position: relative;
-        left: 30px;
-    }
-}
-
-@media screen and (max-width: 1201px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .form{
-        position: relative;
-        left: 50px;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 40px;
-    }
-}
-
-@media screen and (max-width: 1075px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 490px;
-    }
-    .form{
-        position: relative;
-        left: -22px;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 40px;
-        width: 140%;
-    }
-}
-
-@media screen and (max-width: 906px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 410px;
-    }
-    .form{
-        position: relative;
-        top: 40px;
-        left: -70px;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 40px;
-        width: 140%;
-    }
-}
-
-@media screen and (max-width: 819px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 370px;
-        width: 40%;
-    }
-    .form{
-        position: relative;
-        top: 40px;
-        left: -30px;
-        width: 80%;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 70px;
-        width: 220%;
-    }
-}
-
-@media screen and (max-width: 686px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 260px;
-        width: 70%;
-    }
-    .form{
-        position: relative;
-        top: 40px;
-        left: -30px;
-        width: 80%;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 100px;
-        width: 270%;
-    }
-}
-
-@media screen and (max-width: 613px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 260px;
-        width: 70%;
-    }
-
-    .contact_me{
-        height: 1200px;
-    }
-    .form{
-        position: relative;
-        top: 600px;
-        left: -340px;
-        width: 80%;
-    }
-
-    .column{
-        width: 240%;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 100px;
-        width: 680%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 170px;
-        width: 70%;
-    }
-
-    .contact_me{
-        height: 1200px;
-    }
-    .form{
-        position: relative;
-        top: 600px;
-        left: -320px;
-        width: 80%;
-    }
-
-    .column{
-        width: 240%;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 100px;
-        width: 680%;
-    }
-}
-
-@media screen and (max-width: 546px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 170px;
-        width: 70%;
-    }
-
-    .contact_me{
-        height: 1200px;
-    }
-    .form{
-        position: relative;
-        top: 600px;
-        left: -270px;
-        width: 80%;
-    }
-
-    .column{
-        width: 170%;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 100px;
-        width: 680%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 170px;
-        width: 70%;
-    }
-
-    .contact_me{
-        height: 1200px;
-    }
-    .form{
-        position: relative;
-        top: 600px;
-        left: -170px;
-        width: 80%;
-    }
-
-    .column{
-        width: 170%;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 100px;
-        width: 680%;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .contact_me h1{
-        position: relative;
-        left: 170px;
-        width: 70%;
-    }
-
-    .contact_me{
-        height: 1200px;
-    }
-    .form{
-        position: relative;
-        top: 600px;
-        left: -190px;
-        width: 80%;
-    }
-
-    .column{
-        width: 170%;
-    }
-
-    .map iframe{
-        position: relative;
-        right: 100px;
-        width: 680%;
-    }
-}
-
-/* discuss section starts */
-
-@media screen and (max-width: 1126px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .social{
-        position: relative;
-        left: 430px;
-    }
-}
-
-@media screen and (max-width: 935px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .social{
-        position: relative;
-        left: 360px;
-    }
-}
-
-@media screen and (max-width: 748px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .social{
-        position: relative;
-        left: 240px;
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 612px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .social{
-        position: relative;
-        left: 180px;
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
-    .social{
-        position: relative;
-        left: 113px;
-        width: 50%;
-    }
-}
+/* footer ends */
